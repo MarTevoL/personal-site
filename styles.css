@@ -1,0 +1,152 @@
+@font-face {
+  font-family: Innovate;
+  src: url(assets/Fontspring-DEMO-innovate-regular.otf);
+}
+@font-face {
+  font-family: Innovate;
+  src: url(assets/Fontspring-DEMO-innovate-bold.otf);
+  font-weight: bold;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  height: 100%;
+  margin: 0;
+}
+.truong-le {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.truong {
+  margin-right: 12px;
+  font-weight: 900;
+  font-size: 36px;
+  font-family: Innovate;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+}
+
+.le {
+  font-size: 36px;
+  font-weight: 100;
+  font-family: Innovate;
+  letter-spacing: 0.5rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.name-place {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(229, 237, 237);
+  padding-bottom: 160px;
+  padding-top: 200px;
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.social-logo {
+  height: 12px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.my-infor-logo {
+  height: 16px;
+  margin-right: 10px;
+}
+
+.social-logo:hover {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* About */
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Contact */
+
+.contact-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(229, 237, 237);
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.info {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  font-size: 8px;
+}
+
+h1 {
+  font-family: Innovate;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 0.25rem;
+}
+p {
+  font-family: Innovate;
+  font-size: 16px;
+  letter-spacing: 0.125rem;
+}
